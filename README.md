@@ -1,8 +1,25 @@
-# React + Vite
+# Expense Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack application for managing and tracking expenses, built with **MongoDB**, **Node.js**, and **Express**.
 
-Currently, two official plugins are available:
+## Features
+- **User Authentication**: Secure login and registration with JWT-based authentication.
+- **Expense Management**: Create, read, update, and delete expenses.
+- **Dashboard**: Visualize expenses with **Chart.js**.
+- **CSV Export**: Export expense data to CSV format.
+- **Multi-Currency Support**: Convert expenses to the user's preferred currency.
+- **Data Filters**: Filter expenses by date range, category, and amount.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Technologies
+- **Backend**: Node.js, Express
+- **Database**: MongoDB (Mongoose)
+- **Authentication**: JWT, bcryptjs
+- **Frontend**: React (optional for dashboard), Chart.js
+- **Testing**: Jest, Supertest
+- **CSV Export**: json2csv
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/expense-manager.git
