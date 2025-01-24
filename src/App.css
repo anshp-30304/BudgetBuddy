@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+:root{
+  --primary-color:#0d2036;
+  --secondry-color:#4c9981;
+  --extra-color:#bf5129;
+  --text-color:#d7dce1;
+  font-family: "Source Code Pro", serif;
+}
+body{
+  color: var(--text-color);
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  background: var(--primary-color);
+}
+nav{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(23, 56, 94, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+.logo-container{
+  font-size: 2.5rem;
+  flex: 0 0 40%;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+.logo-container .yellow{
+  color: var(--extra-color);
+}
+.links{
+  
+  font-size: 1.5rem;
+  flex: 0 0 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.links a{
+  box-shadow: inset 0 0 0 0 var(--extra-color);
+  color: var(--extra-color);
+  height: 60px;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: 0 -.25rem;
+  padding: 0 .25rem;
+ 
+  transition: color 0.2s ease-in-out, box-shadow 0.2s ease-in-out,font-size 0.2s ease-in-out;
+  text-decoration: none;
+  color: var(--text-color); 
+}
+.links a:hover {
+  font-size: 1.6rem;
+  box-shadow:inset rgba(191, 81, 41, 0.5) -5px 5px, rgba(191, 81, 41, 0.4) -10px 10px, rgba(191, 81, 41, 0.3) -15px 15px, rgba(191, 81, 41, 0.2) -20px 20px, rgba(191, 81, 41, 0.05) -25px 25px;
+ 
+  color: var(--text-color); /* Hover color change */
+}
